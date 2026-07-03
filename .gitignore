@@ -3,12 +3,12 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 
-# Данные и результаты могут быть большими и воспроизводятся локально.
+# Данные и результаты могут быть большими и воспроизводятся локально
 data/raw/*
 data/processed/*
 outputs/*
 
-# Сохраняем сами папки в структуре проекта.
+# Сохраняем папки в структуре проекта
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !outputs/.gitkeep
