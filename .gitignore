@@ -5,10 +5,20 @@ __pycache__/
 
 # Данные и результаты могут быть большими и воспроизводятся локально
 data/raw/*
+data/interim/*
 data/processed/*
 outputs/*
+!outputs/figures/
+!outputs/qc/
+!outputs/tables/
+outputs/figures/*
+outputs/qc/*
+outputs/tables/*
 
 # Сохраняем папки в структуре проекта
 !data/raw/.gitkeep
+!data/interim/.gitkeep
 !data/processed/.gitkeep
-!outputs/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/qc/.gitkeep
+!outputs/tables/.gitkeep
