@@ -3,6 +3,7 @@ numpy
 scipy
 pandas
 matplotlib
+EMD-signal
 openpyxl
 ipykernel
 jupyter
